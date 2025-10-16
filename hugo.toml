@@ -2,3 +2,10 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+
+[params]
+  mainSections = ["posts"]        # make sure this says "posts" (plural)
+
+[params.ananke]
+  show_recent_posts = true        # ensure recent posts block shows
+  recent_posts_number = 5         # choose how many to show
